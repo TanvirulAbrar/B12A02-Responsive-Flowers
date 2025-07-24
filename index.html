@@ -8,14 +8,18 @@
   </head>
   <body>
     <header>
-      <nav class="flex justify-between items-center mx-[150px] mt-[30px]">
+      <nav
+        class="flex justify-between items-center mx-[150px] mt-[30px] max-sm:m-3.5 max-sm:h-[36px]"
+      >
         <div class="">
-          <img src="assets/logo.png" alt="" class="" />
+          <img src="assets/logo.png" alt="" class="max-sm:h-[38px]" />
         </div>
         <div class="flex gap-[48px] justify-around content-center text-center">
-          <a href="" class="font-bold text-[1rem]">Home</a>
-          <a href="" class="">Shop</a>
-          <a href="" class="">About us</a>
+          <span class="flex gap-[48px] max-sm:hidden">
+            <a href="" class="font-bold text-[1rem]">Home</a>
+            <a href="" class="">Shop</a>
+            <a href="" class="">About us</a>
+          </span>
           <a href="" class="flex">
             <img src="assets/shopping-cart.png" alt="" /> Cart ($56)
           </a>
@@ -24,20 +28,22 @@
       <!-- banner -->
       <section class="banner mx-auto">
         <div
-          class="flex justify-between mt-[120px] pt-[106px] w-[80%] mx-auto max-sm:flex-col"
+          class="flex justify-between mt-[120px] pt-[106px] max-w-[1140px] w-[80%] mx-auto max-sm:flex-col-reverse max-sm:w-[100%] max-sm:mt-[18px] max-sm:pt-0"
         >
-          <div class="w-[50%] mb-0 mt-auto">
-            <h1 class="text-[4rem] font-bold">
+          <div class="w-[50%] mb-0 mt-auto max-sm:w-[100%] max-sm:p-4">
+            <h1
+              class="text-[4rem] font-bold max-sm:text-[1.5rem] max-sm:w-[191px]"
+            >
               ALWAYS
               <span class="text-[#E95A08]">FRESH FLOWERS</span>
             </h1>
-            <p class="text-[22px] text-gray-400">
+            <p class="text-[22px] text-gray-400 max-sm:text-[14px]">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh flowers that are perfect for any occasion.
             </p>
           </div>
-          <div class="w-[50%] mb-0 mt-auto">
+          <div class="w-[50%] mb-0 mt-auto max-sm:w-[100%]">
             <img class="w-[100%]" src="assets/hero-flower.png" alt="" />
           </div>
         </div>
